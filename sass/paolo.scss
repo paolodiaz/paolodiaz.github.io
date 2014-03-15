@@ -1,1 +1,33 @@
-@import 'bourbon/bourbon';
+@import "compass";
+
+$page-background-color: #ccc;
+
+body {
+  /*background-color: $page-background-color;*/
+}
+
+#header {
+  background-color: #FFF;
+  @include border-top-radius(10px);
+  padding: 20px;
+}
+
+#home-main-img {
+  text-align: center;
+}
+
+#slogan {
+  /*font-size: 24px;*/
+  font-style: italic;
+  /*padding: 50px 0;*/
+  text-align: center;
+}
+
+#social-wrapper {
+  height: 21px;
+  margin: 10px 0 20px;
+  .social {
+    float: left;
+    margin-right: 10px;
+  }
+}
